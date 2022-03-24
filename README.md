@@ -9,7 +9,7 @@ This will help build the foundations of good practice, proper experimenting and 
 
 ### MY FIRST STEPS IN CREATING A WEBSITE:
 
-#### VISUALIZE THE DESIGN LAYOUT
+#### 1. VISUALIZE THE DESIGN LAYOUT
 
 Most foundations include: 
 
