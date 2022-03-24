@@ -6,3 +6,15 @@
 
 This will help build the foundations of good practice, proper experimenting and learning.
 
+
+### MY FIRST STEPS IN CREATING A WEBSITE:
+
+#### VISUALIZE THE DESIGN LAYOUT
+
+Most foundations include: 
+
+* Background/Body
+* Container
+* Header
+* Main Content
+* Footer
