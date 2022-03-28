@@ -9,23 +9,85 @@
   </head>
   <body>
     <div class="container">
+      <!-- HEADER SECTION -->
+
       <header>
-        <div class="nav_header">
+        <div class="nav__header">
           <a href="#">
             <img src="images/logo-new.png" alt="KFC logo" class="logo" />
           </a>
           <a href="" class="sign-in">Sign in</a>
         </div>
-        <nav class="nav_menu">
+        <nav class="nav__menu">
           <ul class="nav__links">
-            <li class="nav_item"><a href="#">MENU</a></li>
-            <li class="nav_item"><a href="#">SPECIALS</a></li>
-            <li class="nav_item"><a href="#">DESSERT</a></li>
-            <li class="nav_item"><a href="#">CATERING</a></li>
-            <li class="nav_item"><a href="#">FIND A KFC</a></li>
+            <li class="nav__item"><a href="#">MENU</a></li>
+            <li class="nav__item"><a href="#">SPECIALS</a></li>
+            <li class="nav__item"><a href="#">DESSERT</a></li>
+            <li class="nav__item"><a href="#">CATERING</a></li>
+            <li class="nav__item"><a href="#">FIND A KFC</a></li>
           </ul>
         </nav>
       </header>
+
+      <!-- MAIN SECTION -->
+
+      <div class="main">
+        <div class="main__container">
+          <div class="main__content">
+            <h1>LET'S START ORDERING</h1>
+            <div class="ordering__tabs">
+              <input
+                type="radio"
+                id="tabDelivery"
+                name="orderingtabs"
+                checked="checked"
+              />
+              <label for="tabDelivery">DELIVERY</label>
+              <div class="tab">
+                <button type="button" class="btn">
+                  USE MY CURRENT LOCATION1
+                </button>
+                <p>OR</p>
+                <input
+                  class="text__searchbox"
+                  type="text"
+                  placeholder="Enter your address"
+                />
+              </div>
+
+              <input type="radio" id="tabPickup" name="orderingtabs" />
+              <label for="tabPickup">PICK UP</label>
+              <div class="tab">
+                <button type="button" class="btn">
+                  USE MY CURRENT LOCATION2
+                </button>
+                <p>OR</p>
+                <input
+                  class="text__searchbox"
+                  type="text"
+                  placeholder="Enter your address"
+                />
+              </div>
+
+              <input type="radio" id="tabCurbside" name="orderingtabs" />
+              <label for="tabCurbside">CURB SIDE</label>
+              <div class="tab">
+                <button type="button" class="btn">
+                  USE MY CURRENT LOCATION3
+                </button>
+                <p>OR</p>
+                <input
+                  class="text__searchbox"
+                  type="text"
+                  placeholder="Enter your address"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FOOTER SECTION -->
     </div>
     <script src="app.js"></script>
   </body>
