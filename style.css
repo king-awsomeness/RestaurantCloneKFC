@@ -8,7 +8,7 @@
 body {
   background: url(images/bg.jpg) no-repeat center center fixed;
   background-size: cover;
-  height: 100px;
+  height: 100vh;
   /* overflow: hidden; */
 }
 
@@ -65,7 +65,12 @@ button {
   border: none;
 }
 
-.main__container {
+.main {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.ordering__banner {
   background: url(images/bgLocalization-Desktop.jpg) no-repeat center center
     fixed;
   background-size: cover;
@@ -73,11 +78,11 @@ button {
   /* overflow: hidden; */
 }
 
-.main__content h1 {
-  color: #fff;
+.ordering__banner h1 {
   text-align: center;
   text-shadow: 0 1px 12px rgb(0 0 0 / 80%);
   padding: 20px 0;
+  color: #fff;
 }
 
 .btn {
@@ -105,7 +110,6 @@ button {
 .tab ::placeholder {
   color: #000;
 }
-
 
 .ordering__tabs {
   display: flex;
@@ -152,12 +156,12 @@ button {
 }
 
 .offering__deals {
-  max-width: 100%;
+  width: 100%;
   margin: 0 auto;
   background-color: #fff;
 }
 
-.offering__deals h2{
+.offering__deals h2 {
   padding: 20px 10px;
 }
 
@@ -169,4 +173,20 @@ button {
 hr {
   max-width: 97%;
   margin: 0 auto;
+}
+
+.footer {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.footer__image {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0 40px 0;
+}
+
+.footer__content {
+  text-align: center;
 }

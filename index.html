@@ -14,7 +14,7 @@
       <header>
         <div class="nav__header">
           <a href="#">
-            <img src="images/logo-new.png" alt="KFC logo" class="logo" />
+            <img src="images/logo-new.png" alt="KFC logo" />
           </a>
           <a href="" class="sign-in">Sign in</a>
         </div>
@@ -32,93 +32,114 @@
       <!-- MAIN SECTION -->
 
       <div class="main">
-        <div class="main__container">
-          <div class="main__content">
-            <h1>LET'S START ORDERING</h1>
-            <div class="ordering__tabs">
+        <div class="ordering__banner">
+          <h1>LET'S START ORDERING</h1>
+          <div class="ordering__tabs">
+            <input
+              type="radio"
+              id="tabDelivery"
+              name="orderingtabs"
+              checked="checked"
+            />
+            <label for="tabDelivery">DELIVERY</label>
+            <div class="tab">
+              <button type="button" class="btn">
+                USE MY CURRENT LOCATION1
+              </button>
+              <p>OR</p>
               <input
-                type="radio"
-                id="tabDelivery"
-                name="orderingtabs"
-                checked="checked"
+                class="text__searchbox"
+                type="text"
+                placeholder="Enter your address"
               />
-              <label for="tabDelivery">DELIVERY</label>
-              <div class="tab">
-                <button type="button" class="btn">
-                  USE MY CURRENT LOCATION1
-                </button>
-                <p>OR</p>
-                <input
-                  class="text__searchbox"
-                  type="text"
-                  placeholder="Enter your address"
-                />
-              </div>
+            </div>
 
-              <input type="radio" id="tabPickup" name="orderingtabs" />
-              <label for="tabPickup">PICK UP</label>
-              <div class="tab">
-                <button type="button" class="btn">
-                  USE MY CURRENT LOCATION2
-                </button>
-                <p>OR</p>
-                <input
-                  id="icon"
-                  class="text__searchbox"
-                  type="text"
-                  placeholder="Enter your address"
-                />
-              </div>
-              <input type="radio" id="tabCurbside" name="orderingtabs" />
-              <label for="tabCurbside">CURB SIDE</label>
-              <div class="tab">
-                <button type="button" class="btn">
-                  USE MY CURRENT LOCATION3
-                </button>
-                <p>OR</p>
-                <input
-                  id="icon"
-                  class="text__searchbox"
-                  type="text"
-                  placeholder="Enter your address"
-                />
-              </div>
+            <input type="radio" id="tabPickup" name="orderingtabs" />
+            <label for="tabPickup">PICK UP</label>
+            <div class="tab">
+              <button type="button" class="btn">
+                USE MY CURRENT LOCATION2
+              </button>
+              <p>OR</p>
+              <input
+                id="icon"
+                class="text__searchbox"
+                type="text"
+                placeholder="Enter your address"
+              />
+            </div>
+            <input type="radio" id="tabCurbside" name="orderingtabs" />
+            <label for="tabCurbside">CURB SIDE</label>
+            <div class="tab">
+              <button type="button" class="btn">
+                USE MY CURRENT LOCATION3
+              </button>
+              <p>OR</p>
+              <input
+                id="icon"
+                class="text__searchbox"
+                type="text"
+                placeholder="Enter your address"
+              />
             </div>
           </div>
-          <div class="offering__deals">
-            <h2>OFFERS</h2>
-            <div>
-              <a href="#">
-                <img src="images/online-bucket-3.jpg" alt="KFC Deal" class="kfc__offer" />
-              </a>
-            </div>
-            <div>
-              <a href="#">
-                <img src="images/sr-big-deal.jpg" alt="KFC Deal" class="kfc__offer" />
-              </a>
-            </div>
-            <div>
-              <a href="#">
-                <img src="images/sr-bucket.jpg" alt="KFC Deal" class="kfc__offer" />
-              </a>
-            </div>
-            <div>
-              <a href="#">
-                <img src="images/KFC_wednesday_offer_21_7.jpg" alt="KFC Deal" class="kfc__offer" />
-              </a>
-            </div>
+        </div>
 
-            <br>
-            <br>
-            <hr>
-            <br>
-            <br>
-            
+        <div class="offering__deals">
+          <h2>OFFERS</h2>
+          <div>
+            <a href="#">
+              <img
+                src="images/online-bucket-3.jpg"
+                alt="KFC Deal"
+                class="kfc__offer"
+              />
+            </a>
+          </div>
+          <div>
+            <a href="#">
+              <img
+                src="images/sr-big-deal.jpg"
+                alt="KFC Deal"
+                class="kfc__offer"
+              />
+            </a>
+          </div>
+          <div>
+            <a href="#">
+              <img
+                src="images/sr-bucket.jpg"
+                alt="KFC Deal"
+                class="kfc__offer"
+              />
+            </a>
+          </div>
+          <div>
+            <a href="#">
+              <img
+                src="images/KFC_wednesday_offer_21_7.jpg"
+                alt="KFC Deal"
+                class="kfc__offer"
+              />
+            </a>
           </div>
         </div>
       </div>
 
       <!-- FOOTER SECTION -->
+      <div class="footer">
+        <br />
+        <hr />
+        <br />
+        <div class="footer__image">
+          <img src="images/logo-new.png" alt="KFC Logo" />
+        </div>
+        <div class="footer__content">
+          <h1>ADD LIST</h1>
+        </div>
+      </div>
+
+
     </div>
     <script src="app.js"></script>
   </body>
