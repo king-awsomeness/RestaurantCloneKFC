@@ -8,7 +8,7 @@
 body {
   background: url(images/bg.jpg) no-repeat center center fixed;
   background-size: cover;
-  height: 100vh;
+  /* height: 100vh; */
   /* overflow: hidden; */
 }
 
@@ -36,7 +36,6 @@ button {
 
 .nav__header img {
   width: 110px;
-  height: auto;
 }
 
 .nav__header a {
@@ -45,10 +44,16 @@ button {
   font-size: 1rem;
 }
 
+
 .nav__menu {
   background: #e4002b;
   box-shadow: 0px 5px 10px rgb(0 0 0 / 20%);
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 99;
 }
+
 
 .nav__menu ul {
   list-style: none;
@@ -65,16 +70,16 @@ button {
   border: none;
 }
 
-.main {
+/* .main {
   width: 100%;
   margin: 0 auto;
-}
+} */
 
 .ordering__banner {
   background: url(images/bgLocalization-Desktop.jpg) no-repeat center center
     fixed;
   background-size: cover;
-  height: 500px;
+  /* height: 500px; */
   /* overflow: hidden; */
 }
 
@@ -87,7 +92,7 @@ button {
 
 .btn {
   width: 400px;
-  height: 60px;
+  padding: 15px 0;
   border-radius: 5px;
   background-color: #e4002b;
   border: none;
