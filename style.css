@@ -192,6 +192,26 @@ hr {
   padding: 10px 0 40px 0;
 }
 
-.footer__content {
+.footer__menu {
   text-align: center;
+  display: flex;
+  justify-content:space-around;
+
+}
+
+.footer__menu .title {
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+.footer__menu li {
+  padding: 5px 0;
+}
+
+.footer__menu li a {
+  list-style: none;
+  text-decoration: none;
+  color: #000;
+  font-size: 12px;
+  font-weight: normal;
 }
