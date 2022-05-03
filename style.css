@@ -59,6 +59,8 @@ button {
   list-style: none;
   display: flex;
   text-align: center;
+  border-bottom: 1px solid #d4d4d4;
+  border-top: 1px solid #d4d4d4;
 }
 
 .nav__menu ul li {
@@ -67,13 +69,8 @@ button {
 }
 
 .nav__menu ul li:nth-child(5) {
-  border: none;
+  border-right: none;
 }
-
-/* .main {
-  width: 100%;
-  margin: 0 auto;
-} */
 
 .ordering__banner {
   background: url(images/bgLocalization-Desktop.jpg) no-repeat center center
@@ -214,4 +211,13 @@ hr {
   color: #000;
   font-size: 12px;
   font-weight: normal;
+}
+
+.social_mediaLinks {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.social_mediaLinks p {
+  font-weight: bold;
 }
